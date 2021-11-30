@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-repeat: no-repeat;
+ 	background-position: top;
+	background-image: url(../img/back2.png);
+	background-size: cover;
+	height: 890px;
+    font-family: 'Press Start 2P';
+
+}
+.container{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 10px #FF005A;
+}
+.container .header {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dws-menu {
+    margin-right: 50px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.header-logo {
+    font-size: 26px;
+    text-decoration: none;
+    color: #54A600;
+    margin-left: 50px;
+    transition: all .07s ease-in-out;
+
+   
+}
+.header-logo:hover {
+color: rgba(16, 241, 241, 0.897);
+box-shadow: -0.10px 4px 50px -5px;
+
+}
+.logo {
+    margin-left: 50px;
+    size: 100px;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+.dws-menu >ul li a{
+    display: block;
+    background: rgb(84, 166, 0);
+    padding: 15px 30px 15px 40px;
+    font-size: 22px;
+    color: white;
+    font-style: oblique;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.7s ease;
+}
+.dws-menu > ul li {
+    position: relative;
+    border-right: 9px solid #FFBB00;
+}
+.dws-menu > ul li > a i.fas{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-size: 25px;
+}
+.dws-menu > ul li:first-child {
+    border-left: 7px solid rgb(25 26 42);
+}
+.dws-menu > ul li:last-child {
+    border-right: 7px solid #191a2a;
+}
+.dws-menu li a:hover {
+    background: rgb(198, 19, 204);
+    color: blue;
+    box-shadow: -0.10px 4px 50px -5px pink ;
+    transition: all 0.6s ease;
+    
+
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+    font-size: 30px;
+    
+
+}
+.twit{
+    color: rgb(0, 0, 0);
+    width: 18%;
+}
+
+.fa.fa-twitter {
+    color: yellowgreen;
+}
+.fa.fa-instagram{
+    color: yellowgreen;  
+}
+.fa.fa-youtube-play {
+    color: yellowgreen;  
+}
+.name-team{
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: 150px;
+    color: #868FFF;
+
+}
+.name-team p1{
+    font-size: 15px;
+    padding-top: 50px;
+    margin-left: 25px;
+    color: #868FFF;
+}
+.infoOFteam{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 35px;
+    padding-left: 35px;
+    width: 800px;
+    color: #868FFF ;
+}
+.photo {
+    display: flex;
+    justify-content: right;
+    border: 5px solid rgb(128, 0, 90);
+    height: 55vh;
+    width: 70vh;
+    margin-left: 60%;
+}
+.photo > img {
+    height: 55vh;
+    width: 70vh;
+}
+
+
+/* .photo_{
+    display: flex;
+    justify-content: right;
+    opacity: 0.8;
+   margin-right: 60px;
+   border: 2px solid green;
+   padding-left: auto 0px;
+} */
+/* .photo_{
+    display: flex;
+    justify-content: right;
+    border: 5px solid green;
+
+    
+
+} */
+
+
+
+
+/* Саб меню */
+.dws-menu li ul {
+    position: absolute;
+    min-width: 160px;
+    display: none;
+}
+.dws-menu li > ul li {
+    border: 2px solid #FFBB00;
+}
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #3f9e7e;
+    font-size: 15px;
+}
+.dws-menu li > ul li ul {
+    position: absolute;
+    right: -210px;
+    top: 0;
+
+}
+.dws-menu li:hover > ul {
+    display: block;
+
+}
+.dws-menu li p {
+    color: white;
+}
+.dws-menu ul li g {
+    color: rgb(238, 255, 0);
+}
+
+.dws-menu li > ul border li  {
+    border: 5px solid #FFBB00;
+width: 100%;
+
+}
+.dws-menu li > ul border li a{
+    padding: 10px;
+    text-transform: none;
+    background: #54a600;
+    font-size: 11px;
+}
+
+
+
+
+
+/* 2box */
+.box_2 {
+    background-repeat: no-repeat;
+ 	background-position: top;
+	background-color: burlywood;
+	background-size: cover;
+	height: 800px;
+    font-family: 'Press Start 2P';
+}
+.history_game {
+    font-size: 45px;
+    margin-top: 50px;
+    padding: 150px;
+    width: 800px;
+    color: #868FFF ;
+}
+.p3 {
+    margin-top: 600px;
+} 
+.photo2 {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    border: 5px solid purple;
+    height: 10.7vh;
+    width: 73.5vh;
+    margin-left: 45px;
+}
+
+.photo22 {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    border: 5px solid purple;
+    height: 10vh;
+    width: 73vh;
+    margin-left: 45px;
+}
+.footer {
+    background-repeat: no-repeat;
+ 	background-position: top;
+	background-size: cover;
+	height: 50px;
+    color: #424242;
+    
+}
+.sev_menu_list a {
+    color: #424242;
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 13px;
+}
+.p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
